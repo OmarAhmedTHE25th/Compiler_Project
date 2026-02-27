@@ -13,8 +13,8 @@
 1. Pull first:
    `git pull`
 
-2. Work ONLY in your Task folder:
-   Task01, Task02, … Task10
+2. Work ONLY in your designated file:
+   Scanner.cs , Parser.cs, etc
 
 3. Add changes:
    `git add .`
@@ -25,4 +25,4 @@
 5. Push changes:
    `git push`
 
-6. NEVER touch other people's folders
+6. NEVER touch other people's files
