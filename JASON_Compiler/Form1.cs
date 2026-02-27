@@ -20,8 +20,8 @@ namespace JASON_Compiler
         private void button1_Click(object sender, EventArgs e)
         {
             textBox2.Clear();
-            string Code=textBox1.Text.ToLower();
-            JASON_Compiler.Start_Compiling(Code);
+            string code=textBox1.Text.ToLower();
+            JASON_Compiler.Start_Compiling(code);
             PrintTokens();
             treeView1.Nodes.Add(Parser.PrintParseTree(JASON_Compiler.treeroot));
             PrintErrors();

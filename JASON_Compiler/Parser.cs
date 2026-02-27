@@ -53,6 +53,7 @@ namespace JASON_Compiler
             Node declsec = new Node("DeclSec");
             // write your code here to check atleast the declare sturcure 
             // without adding procedures
+            
             return declsec;
         }
         Node Block()
